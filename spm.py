@@ -11,6 +11,7 @@ os.system('clear')
 print("""\033[1;97m
  ___ _ __   __ _ _ __ ___
 / __| '_ \ / _` | '_ ` _ \
+
 \__ \ |_) | (_| | | | | | |
 |___/ .__/ \__,_|_| |_| |_|
       |_|
@@ -23,7 +24,7 @@ nomor=input('\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;97m number target : ')
 
 while True:
 	try:
-		mex=int(input('\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;97m jumlah spam (MAX-3) : '))
+		mex=int(input('\033[1;97m[\033[1;92m✓\033[1;97m]\033[1;97m jumlah spam (MAX-50) : '))
 		print ("")
 		break
 	except : continue
